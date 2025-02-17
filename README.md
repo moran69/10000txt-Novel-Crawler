@@ -58,10 +58,10 @@ process_file_links("都市异能download_links.txt")//第一步骤保存的网�
 
 ## 使用
 
-1. 直接运行 `main.py`，爬虫会开始抓取所有分类的小说信息并获取下载链接。
+1. 直接运行 `Novel-Crawler.py`，爬虫会开始抓取所有分类的小说信息并获取下载链接。
 
     ```bash
-    python main.py
+    python Novel-Crawler.py
     ```
 
 2. 爬虫会按分类依次爬取，每爬取一批页面后，会输出当前的进度和抓取统计信息，包括成功获取的下载链接数量和失败的下载链接数量。
@@ -70,7 +70,7 @@ process_file_links("都市异能download_links.txt")//第一步骤保存的网�
     - 图书链接保存在 `category_links.txt` 文件中。
     - 下载链接保存在 `category_download_links.txt` 文件中。
     - 错误信息保存在 `category_error_links.json` 文件中。
-
+4.调用由downctfile下载所有网盘链接
 ## 日志
 
 所有爬虫过程中的日志信息将记录在 `crawler.log` 文件中，方便后续查看和调试。
