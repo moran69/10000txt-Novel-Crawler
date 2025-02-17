@@ -243,8 +243,8 @@ class NovelCrawler:
         self.stats['total_books'] += len(books)
         
         logging.info(f"第 {page} 页爬取完成，获取到 {len(books)} 本书")
-        if page % 5 == 0:  # 每5页打印一次进度
-            self.print_progress()
+        #更新进度
+        self.print_progress()
             
         return books
 
