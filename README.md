@@ -29,7 +29,7 @@ process_file_links("都市异能download_links.txt")//第一步骤保存的网�
 1. 克隆本仓库：
 
     ```bash
-    git clone https://github.com/zhaoyanxue666/10000txt-novel-crawler.git
+    git clone https://github.com/moran69/10000txt-novel-crawler.git
     ```
 
 2. 进入项目目录：
