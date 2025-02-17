@@ -35,7 +35,7 @@ process_file_links("都市异能download_links.txt")//第一步骤保存的网�
 2. 进入项目目录：
 
     ```bash
-    cd novel-crawler
+    cd 10000txt-novel-crawler
     ```
 
 3. 安装依赖库：
