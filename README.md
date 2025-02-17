@@ -16,7 +16,7 @@
 1. 克隆本仓库：
 
     ```bash
-    git clone https://github.com/yourusername/novel-crawler.git
+    git clone https://github.com/zhaoyanxue666/10000txt-novel-crawler.git
     ```
 
 2. 进入项目目录：
