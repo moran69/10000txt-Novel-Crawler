@@ -3,6 +3,7 @@
 
 这是一个用于爬取小说下载链接的 Python 爬虫脚本，支持多个小说分类，能够并发地抓取每一页的图书信息，并解析每本书的下载链接。爬虫使用了多线程和异步机制，能有效提高抓取效率。
 适用网站：https://www.10000txt.com/
+
 1.爬取网站所有分类所有页面的小说标题-页面链接-城通网盘链接
 该步骤由Novel-Crawler.py完成
 ![image](https://github.com/user-attachments/assets/4404a1df-4fd3-42c8-b0d6-7bbaed568c19)
