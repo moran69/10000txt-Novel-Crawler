@@ -9,6 +9,10 @@
 ![image](https://github.com/user-attachments/assets/4404a1df-4fd3-42c8-b0d6-7bbaed568c19)
 2.自动化下载城通网盘链接
 ![image](https://github.com/user-attachments/assets/bf2089ff-f4f8-4393-9466-a588beb2696f)
+第一步骤获取所有网盘链接之后，由downctfile.py自动化下载所有网盘链接，并以文件名储存到自定义文件夹
+使用示例：传入存储URL链接的txt文件路径
+category = "都市"  # 分类名称，即所下载文件要保存的文件夹
+process_file_links("都市异能download_links.txt")//第一步骤保存的网盘链接文件
 
 由于网盘限制，每次只能够下载一个文件
 
